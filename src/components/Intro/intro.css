@@ -1,0 +1,95 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.bg {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 43rem;
+  width: 30rem;
+}
+
+.introContent {
+  height: 80vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.introName {
+  color: red;
+}
+
+.introPara {
+  font-size: medium;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 1rem; /* Added margin bottom for better spacing */
+}
+
+.expandBtn {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4caf50; /* Green background color */
+  border: none;
+  color: white;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.expandBtn:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Move button up slightly on hover */
+}
+
+.expandBtn:active {
+  transform: translateY(1px); /* Move button down slightly when active */
+}
+
+@media screen and (max-width: 768px) {
+  .bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .introContent {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 488px) {
+  .introContent {
+    font-size: 1.5rem;
+  }
+}
