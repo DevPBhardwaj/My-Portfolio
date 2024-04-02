@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.27091737.css",
+    "main.js": "/My-Portfolio/static/js/main.d993f454.js",
+    "static/media/bg.png": "/My-Portfolio/static/media/bg.7202df70d9ff5df8099c.png",
+    "static/media/Portfolio3.png": "/My-Portfolio/static/media/Portfolio3.7b100651bb02b076f081.png",
+    "static/media/Portfolio2.png": "/My-Portfolio/static/media/Portfolio2.b6c85a17252f8356f681.png",
+    "static/media/Portfolio6.png": "/My-Portfolio/static/media/Portfolio6.ac73288c7f23ff5b13e1.png",
+    "static/media/Portfolio1.png": "/My-Portfolio/static/media/Portfolio1.f847f2a55cf78180091a.png",
+    "static/media/logo.png": "/My-Portfolio/static/media/logo.35dc803e38f503f458c3.png",
+    "static/media/Portfolio4.png": "/My-Portfolio/static/media/Portfolio4.6ae7d1d8ab1b237a8767.png",
+    "static/media/Portfolio5.png": "/My-Portfolio/static/media/Portfolio5.3a85dee8bf5a1f4e4cee.png",
+    "static/media/React.png": "/My-Portfolio/static/media/React.35639ed930462bfcd544.png",
+    "static/media/Database.png": "/My-Portfolio/static/media/Database.420e59e2cb1bbd006203.png",
+    "static/media/Github.png": "/My-Portfolio/static/media/Github.553c66159c5672f25df6.png",
+    "static/media/whatsapp.png": "/My-Portfolio/static/media/whatsapp.c826b0165560636baf0b.png",
+    "static/media/open-menu_10027538.png": "/My-Portfolio/static/media/open-menu_10027538.35be265299caeb32f8b8.png",
+    "static/media/Backend.png": "/My-Portfolio/static/media/Backend.96ce78b8f180b4074237.png",
+    "static/media/Linkedin.png": "/My-Portfolio/static/media/Linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.27091737.css.map": "/My-Portfolio/static/css/main.27091737.css.map",
+    "main.d993f454.js.map": "/My-Portfolio/static/js/main.d993f454.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27091737.css",
+    "static/js/main.d993f454.js"
+  ]
+}
